@@ -41,7 +41,7 @@ else:
 
 
 if coefficient != 'error':
-    result  = revenue * ( coefficient / 100)
+    result = revenue * ( coefficient / 100)
     print(f'{result:.2f}')
 else:
     print(coefficient)
