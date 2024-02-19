@@ -5,8 +5,8 @@ season = input()
 is_holiday = True if input() == 'Y' else False
 
 sum_chrysanthemums = float()
-sum_roses =  float()
-sum_tulips =  float()
+sum_roses = float()
+sum_tulips = float()
 
 if season == 'Spring' or season == 'Summer':
     sum_chrysanthemums += chrysanthemums * 2.00
